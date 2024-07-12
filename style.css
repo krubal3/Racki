@@ -1,0 +1,17 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid black;
+}
+
+.cardNumber {
+  background-color: pink;
+}
+
+.highlight {
+  background-color: lightyellow;
+}

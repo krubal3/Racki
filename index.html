@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>racki</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="div1" style="float: left;">
+    <table id="tbl1">
+    </table>
+  </div>
+  <div id="div2" style="float: right;">
+    <table id="tbl2">
+    </table>
+  </div>
+  <div id="divPile" style="clear: left;">
+    <br />
+    <table id="tblPile" class="center">
+      <tr>
+        <td id="discard"></td>
+        <td><button id="btnDraw" onclick="drawCard();">draw</button>
+          <button id="btnUndo" onclick="undo();">undo</button>
+          <button id="btnSkip" onclick="skip();">skip</button>
+        </td>
+      </tr>
+      <tr>
+        <td>click on a card <br />
+          in the highlighted rack <br />
+          to swap it with this card</td>
+        <td>
+          <button id="btnNewGame" onclick="loadRacks(true);">new game</button>
+        </td>
+      </tr>
+    </table>
+    <br />
+  </div>
+  <div id="div3" style="float: left;">
+    <table id="tbl3">
+    </table>
+  </div>
+  <div id="div4" style="float: right;">
+    <table id="tbl4">
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
